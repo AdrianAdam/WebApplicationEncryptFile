@@ -1,0 +1,289 @@
+
+.tot{
+	background-image: url("images/wallpaper.jpg");
+}
+.btn{
+	 background: #355681;
+	background: rgba(53,86,129, 0.8);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 3px solid white;
+    border-radius: 3px;
+    color: white;
+}
+.forms{
+	margin-top:100px;
+}
+.log-in{
+	float:left;
+}
+.log-in ol{
+	list-style:none;
+}
+
+.log-in form{
+	text-align:right;
+}
+.log-in p{
+	color: #355681;
+	font-size: 20px;
+	text-decoration: bold;
+	padding: 4px;
+}
+.create-acc ol{
+	list-style:none;
+}
+
+.create-acc form{
+	text-align:right;
+}
+.create-acc p{
+	color: #355681;
+	font-size: 20px;
+	text-decoration: bold;
+	padding: 4px;
+}
+.container {
+	width: 980px;
+	margin: 0 auto;
+	background: #9fbedf;
+	opacity: 0.9;
+}
+
+.header {
+	background-color: #9fbedf;
+  	font-style: jusrify;
+	text-align: center;
+	padding: 20px;
+	opacity: 0.8;
+}
+
+.header h1	{
+	margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;  
+	font-size: 36px;
+	line-height: 40px;
+	padding: 15px 15px 15px 15%;
+	color: white;
+	box-shadow: 
+		inset 0 0 0 1px rgba(53,86,129, 0.4), 
+		inset 0 0 50px rgba(53,86,129, 0.5),
+		inset -180px 0 50px white;
+	border-radius: 0 10px 0 10px;
+	background: url(images/security.jpg);
+	text-align:left;
+}
+
+.section {
+	margin-top:40px;
+	background-color: #9fbedf;
+	font-style: justfy;
+	padding: 20px;
+}
+
+.section img {
+	width:  100%;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 10px;
+}
+
+.aside {
+	background-color: #9fbedf;
+	font-style: justify;
+}
+
+.aside h1{
+	margin: 1em 0 0.5em 0;
+	font-weight: normal;
+	position: relative;
+	text-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+	font-size: 28px;
+	line-height: 40px;
+	background: #355681;
+	background: rgba(53,86,129, 0.8);
+	border: 1px solid #fff;
+	padding: 5px 15px;
+	color: white;
+	border-radius: 0 10px 0 10px;
+	box-shadow: inset 0 0 10px rgba(53,86,129, 0.5);
+	font-family: 'Muli', sans-serif;
+}
+
+body h2{
+	margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
+	font-size: 22px;
+	line-height: 40px;
+	color: #355681;
+}
+
+.aside p{
+	margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	font-size: 15px;
+	line-height: 20px;
+	color: #788699;
+	font-family: 'Muli', sans-serif;
+}
+
+.form{
+    max-width:400px;
+    margin:50px auto;
+    border-radius:2px;
+    padding:20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form ul{
+    list-style:none;
+    padding:0px;
+    margin:0;   
+}
+.form li{
+    display: block;
+    padding: 9px;
+    border:1px solid #355681;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.form li:last-child{
+    border:none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.form li > label{
+    display: block;
+    float: left;
+    margin-top: -19px;
+    height: 20px;
+    padding: 2px 5px 2px 5px;
+    color: white;
+    font-size: 14px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+	background: #355681;
+	background: rgba(53,86,129, 0.8);
+}
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="datetime"],
+.form input[type="email"],
+.form input[type="number"],
+.form input[type="search"],
+.form input[type="time"],
+.form input[type="url"],
+.form input[type="password"],
+.form textarea,
+.form select 
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 40px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form input[type="text"]:focus,
+.form input[type="date"]:focus,
+.form input[type="datetime"]:focus,
+.form input[type="email"]:focus,
+.form input[type="number"]:focus,
+.form input[type="search"]:focus,
+.form input[type="time"]:focus,
+.form input[type="url"]:focus,
+.form input[type="password"]:focus,
+.form textarea:focus,
+.form select:focus 
+{
+}
+.form li > span{
+    background: #355681;
+	background: rgba(53,86,129, 0.8);
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.form input[type="submit"],
+.form input[type="button"]{
+    background: #355681;
+	background: rgba(53,86,129, 0.8);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 3px solid white;
+    border-radius: 3px;
+    color: white;
+}
+body input[type="submit"]:hover,
+.form input[type="button"]:hover{
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	position: relative;
+	padding-right: 2.2em;
+	-webkit-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+	background: white;
+    color:#355681;
+}
+.form input[type="submit"]:hover{
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	position: relative;
+	padding-right: 2.2em;
+	-webkit-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+	background: white;
+    color:#355681;
+}
+.col-md-4 input[type="file"],
+.col-md-4 input[type="submit"]{
+	background: #355681;
+	background: rgba(53,86,129, 0.8);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 3px solid white;
+    border-radius: 3px;
+    color: white;
+}
+.footer p{
+	margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;  
+	font-size: 36px;
+	line-height: 40px;
+	padding: 15px 15px 15px 15%;
+	color: white;
+	box-shadow: 
+		inset 0 0 0 1px rgba(53,86,129, 0.4), 
+		inset 0 0 50px rgba(53,86,129, 0.5),
+		inset -180px 0 50px white;
+	border-radius: 0 10px 0 10px;
+	background: url(images/security.jpg);
+	text-align:left;
+	opacity:0.8;
+}
+.clear{
+	clear:both;
+}

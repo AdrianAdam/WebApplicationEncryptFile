@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Encrypting</title>
+	
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	
+</head>
+<body>
+	
+	<div class="container">
+		<div class="header">
+			<h1>Fichier encryptage et decryptage</h1>
+		</div>
+		
+		<div class="section">
+			<div class="col-md-8">
+				<img class="img-responsive" src="images/security.jpg" alt="" />
+			</div>
+			
+			<div class="aside">
+			<div class="col-md-4">
+				<h1>Nouvelles</h1>
+				<p>Bienvenue sur notre site!</p>
+				<p>Si vous avez quelque problems, contactez nous par e-mail.</p>
+				<h1>Mise a jour</h1>
+				<h2>Avril</h2>
+				<p>Petites modifications sur l'algorithme</p>
+				<h2>Mars</h2>
+				<p>Creaton de l'algorithme</p>
+				<p>Creation de le site</p>
+				<h1>Contact</h1>
+				<label for="name">Nom</label>
+				<input type="text" placeholder="Antoine Ducront" />
+				<br />
+				<p>
+				<input type="radio" name="gen" value="homme" checked >Homme
+				<input type="radio" name="gen" value="femme" />Femme
+				</p>
+				<label for="email">E-mail</label>
+				<input type="email" placeholder="example@yahoo.fr" />
+				<br />
+				<label for="comment">Commentaire</label>
+				<input type="comment" placeholder="Ecrire ici votre text" />
+				<br />
+				<button>Envoyer</button>
+			</div>
+		</div>
+		
+			<div class="col-md-4">
+				<form action="php/encript2.php" enctype="multipart/form-data" method="post" lang="fr">
+					<p>
+						Fichier pour encrypter:
+						<br>
+						<input type="file" name="datafile" size="100">
+					</p>
+					<div>
+						<input type="submit" value="Envoyer le fichier">
+					</div>
+				</form>
+			</div>
+			
+			<div class="col-md-4">
+				<form action="php/decript2.php" enctype="multipart/form-data" method="post">
+					<p>
+						Fichier pour decrypter:
+						<br>
+						<input type="file" name="datafile" size="100">
+					</p>
+					<div>
+						<input type="submit" value="Envoyer le fichier">
+					</div>
+				</form>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="footer">
+		<div class="col-md-12">
+			<p>Adrian Adam, groupe 1211 AF</p>
+		</div>
+	</div>
+</body>
+</html>
